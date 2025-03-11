@@ -13,8 +13,8 @@ public class TicTacToeGame {
     }
 
     public void initGame(){
-        PlayingPiece pieceX = new PlayingPieceX();
-        PlayingPiece pieceO = new PlayingPieceO();
+        PlayingPiece pieceX = new PlayingPiece(PieceType.X);
+        PlayingPiece pieceO = new PlayingPiece(PieceType.O);
         
         Player player1 = new Player("Andy", pieceX);
         Player player2 = new Player("Billy", pieceO);

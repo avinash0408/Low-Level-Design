@@ -1,8 +1,8 @@
 package TicTacToe;
 
 public class PlayingPiece {
-    private PieceType piece;
-    PlayingPiece(PieceType pType){
+    private final PieceType piece;
+    public PlayingPiece(PieceType pType){
         piece = pType;
     }
     public PieceType getPieceType(){
